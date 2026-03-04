@@ -31,7 +31,7 @@ while True:
     port=5432,
     database="fastapi",
     user="postgres",
-    password="krisp123",
+    password=" ",
     cursor_factory=RealDictCursor,
 )
 
