@@ -4,6 +4,7 @@ DATABASE_URL=postgresql://user:YOUR_PASSWORD@host:5432/dbname
 "@ | Set-Content .env
 
 @"
+kinsu/
 .venv/
 venv/
 __pycache__/
