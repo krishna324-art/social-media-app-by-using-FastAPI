@@ -1,0 +1,12 @@
+# 1) Put secrets in .env (example)
+@"
+DATABASE_URL=postgresql://user:YOUR_PASSWORD@host:5432/dbname
+"@ | Set-Content .env
+
+@"
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+"@ | Set-Content .gitignore
